@@ -32,18 +32,22 @@ body{
 .content{
 	float: left;
 	width: 130px;
-	margin: 10px;
+	margin: 40px 10px 10px 10px;
 	font-family: "Arial";
+	background: #FFFFFF;
+	padding: 25px 10px 20px 10px;
 }
 .another{
 	float: right;
 	width: 130px;
-	margin: 10px; 
+	margin: 40px 10px 10px 10px;
 	font-family: "Arial";
+	background: #FFFFFF;
+	padding: 35px 10px 20px 10px;
 }
 .main{
-	margin: 0px 150px 0px 180px;
-	padding: 35px 40px 30px 0;
+	margin: 40px 150px 0px 180px;
+	padding: 25px 40px 30px 0;
 	color: #444444;
 	font-size: 18px;
 	line-height: 25px;
@@ -51,6 +55,7 @@ body{
 	text-emphasis: justify;
 }
 footer{
-	padding: 6px 40px 6px 40px;
+	padding: 10px 40px 10px 40px;
+	text-align-last: center;
 	background: #d6d6d6;
 }
