@@ -1,0 +1,56 @@
+body{
+	background: #F4F4F4;
+	margin: 0;
+
+}
+.container{
+	width: 1150px;
+	margin: 0 auto;
+	background: #FFF;
+
+}
+.header{
+	width: 1150px;
+	margin: 0 auto;
+	padding: 0px;
+}
+.menu{
+	background: #36387d;
+	padding: 5px 20px;
+
+}
+.menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Arial"
+}
+.menu a:hover {
+	color: #f4f4f4
+}
+
+.content{
+	float: left;
+	width: 130px;
+	margin: 10px;
+	font-family: "Arial";
+}
+.another{
+	float: right;
+	width: 130px;
+	margin: 10px; 
+	font-family: "Arial";
+}
+.main{
+	margin: 0px 150px 0px 180px;
+	padding: 35px 40px 30px 0;
+	color: #444444;
+	font-size: 18px;
+	line-height: 25px;
+	font-family: "Arial"
+	text-emphasis: justify;
+}
+footer{
+	padding: 6px 40px 6px 40px;
+	background: #d6d6d6;
+}
