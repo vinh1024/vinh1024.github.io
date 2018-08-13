@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #f7f7f7;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -168,7 +168,7 @@ pre {
   width: 220px;
   background: white;
   font-size: 14px;
-  margin: 30px 0px 30px 50px; }
+  margin: 30px 10px 30px 80px; }
 
 .site-nav {
   float: right;
@@ -271,6 +271,9 @@ pre {
  * Page content
  */
 .page-content {
+  width: 780px;
+  margin: 30px 10px 10px 320px;
+  background: white;
   padding: 30px 0; }
 
 .page-heading {

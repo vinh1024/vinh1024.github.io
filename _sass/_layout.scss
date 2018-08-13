@@ -28,7 +28,7 @@
     width: 220px;
     background: white;
     font-size: 14px;
-    margin: 30px 0px 30px 50px;
+    margin: 30px 10px 30px 80px;
 }
 .site-nav {
     float: right;
@@ -174,6 +174,9 @@
  * Page content
  */
 .page-content {
+    width: 780px;
+    margin: 30px 10px 10px 320px;
+    background: white;
     padding: $spacing-unit 0;
 }
 
