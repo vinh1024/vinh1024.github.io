@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,14 +80,18 @@
 
 <p><strong>Thuật toán gradient desents:</strong></p>
 
-<p>Mục tiêu tìm local minimum của hàm <script type="math/tex">\\(f(\mathbf{\theta})\\)</script></p>
+<p>Mục tiêu tìm local minimum của hàm <script type="math/tex">f(\mathbf{\theta})</script></p>
 <ol>
-  <li>Khởi tạo gía trị \(\theta = \theta_{0}\)</li>
-  <li>Cập nhật \(\theta\) đến khi có kết quả chấp nhận được: 
+  <li>Khởi tạo gía trị <script type="math/tex">\theta = \theta_{0}</script></li>
+  <li>Cập nhật <script type="math/tex">\theta</script> đến khi có kết quả chấp nhận được: 
 \[
 \theta_{t+1} = \theta_{t} - \eta \nabla_{\theta} f(\theta_{t})
 \]</li>
 </ol>
+
+<p>\[ 
+    \frac{1}{n^{2}} 
+\]</p>
 
   </div>
 
