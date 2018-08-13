@@ -2,7 +2,7 @@
 layout: post
 title: Gradient desent là gì?
 date: 2018-08-12
-categories: jekyll update
+categories: Machine-learning
 ---
 
 # Gradient descents là gì?
@@ -19,6 +19,3 @@ Mục tiêu tìm local minimum của hàm $$ f(\mathbf{\theta}) $$
 \theta\_{t+1} = \theta_\{t} - \eta \nabla_{\theta} f(\theta_\{t})
 \\]
 
-\\[ 
-    \frac{1}{n^{2}} 
-\\]
