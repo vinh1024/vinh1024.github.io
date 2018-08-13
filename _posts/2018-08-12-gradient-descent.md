@@ -12,6 +12,6 @@ Mục tiêu của gradient desents là tìm gía trị nhỏ nhất của hàm m
 
 **Thuật toán gradient desents:**
 
-Mục tiêu tìm local minimum của hàm \(f(\mathbf{\theta})\)
+Mục tiêu tìm local minimum của hàm \\(f(\mathbf{\theta})\\)
 1. Khởi tạo gía trị \(\theta = \theta_{0}\)
 2. Cập nhật \(\theta\) đến khi có kết quả chấp nhận được: \(\theta_new = \theta_old - \eta \theta \nabla_{\theta}f(\theta)\)
