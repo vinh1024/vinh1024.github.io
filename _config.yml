@@ -18,3 +18,7 @@ github_username:  vinh1024
 # Build settings
 markdown: kramdown
 mathjax: true
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
