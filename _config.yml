@@ -17,3 +17,4 @@ github_username:  vinh1024
 
 # Build settings
 markdown: kramdown
+mathjax: true
